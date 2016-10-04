@@ -1,7 +1,10 @@
 {% extends 'main.html' %}
+{% load static %}
 
 {% block contenido %}
 
 <h1>Quienes SOMOS</h1>
-
+<ul id="carousel">
+  <li><img width="600" height="338" alt="" src="{% static 'imagen/Inspector.jpg' %}" /></li>
+</ul>
 {% endblock %}

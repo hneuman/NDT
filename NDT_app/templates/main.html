@@ -15,26 +15,6 @@
 
 
 
-	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-	  <script src="http://notoyontoy.site40.net/Js/jquery.infinitecarousel3.min.js"></script>
-	  <script type="text/javascript" src="http://notoyontoy.site40.net/Js/easing.js"></script>
-	  <script>
-	     var a = jQuery.noConflict();
-	        a(document).ready(function() {
-	        a('#carousel').infiniteCarousel({
-	           transitionSpeed:12000,     /*Tiempo de avance de las imagenes*/
-	           displayTime: 2000,   /* El tiempo en milisegundos para hacer pausa*/
-	           thumbnailType: 'false',
-	           customClass: 'myCarousel',
-	           easeLeft: 'linear',
-	           easeRight:'linear',
-	           inView: 1,    /*Imagenes mostradas*/
-	           advance: true,
-	           autoPilot: true,
-	           displayProgressRing: true,    /*muestra grafica del tiempo que pausa la imagen*/
-	});
-	 });
-	</script>
 
     </head>
 
@@ -68,7 +48,7 @@
 			</div>
 			
 			<div class="cuerpo_contenido">
-
+				
 				{% block contenido %}{% endblock %}
 
 			</div>
